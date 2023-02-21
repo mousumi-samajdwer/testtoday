@@ -10,7 +10,7 @@ jobs:
       - name: Sigrid CI
         uses: Software-Improvement-Group/sigridci@main
         with:
-          customer: examplecustomername
-          system: examplesystemname
+          customer: ssm
+          system: testtoday
         env:
           SIGRID_CI_TOKEN: "${{ secrets.SIGRID_CI_TOKEN }}"
